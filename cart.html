@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+
+    <link rel="stylesheet" href="css/stylecart.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+
+        <div class="nav container">
+            <a href="page.html" class="logo"> <i class='bx bx-arrow-back'> </i> NAZAD</a>
+            <i class='bx bxs-cart' id="cart-icon"></i>
+            <div class="cart">
+                <h2 class="cart-title"> Narudžbe</h2>
+                <div class="cart-content">
+                    
+                </div>
+                <div class="total">
+                    <div class="total-title">Ukupno</div>
+                    <div class="total-price">0$</div>
+                </div>
+                <button type="button" class="btn-buy">Naruči odmah</button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="shop container">
+        <h2 class="section-title">Brkin meni / Doručak</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="cartimg/dorucak/brkindorucak.png" alt='' class="product-img">
+                <h2 class="product-title">Brkin doručak #1</h2>
+                <span class="price">350 RSD</span>
+                <i class='bx bxs-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/dorucak/brkindorucak2.png" alt='' class="product-img">
+                <h2 class="product-title">Brkin doručak #2</h2>
+                <span class="price">350 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/dorucak/brkindorucak3.png" alt='' class="product-img">
+                <h2 class="product-title">Brkin doručak #3</h2>
+                <span class="price">370 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/dorucak/francuskakajgana.png" alt='' class="product-img">
+                <h2 class="product-title">Francuska kajgana</h2>
+                <span class="price">280 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/dorucak/francuskitost.png" alt='' class="product-img">
+                <h2 class="product-title">Francuski tost</h2>
+                <span class="price">300 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/dorucak/omletmeso.png" alt='' class="product-img">
+                <h2 class="product-title">Omlet sa mesom</h2>
+                <span class="price">350 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/dorucak/omletsir.png" alt='' class="product-img">
+                <h2 class="product-title">Omlet sa sirom</h2>
+                <span class="price">295 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/dorucak/omletsunka.png" alt='' class="product-img">
+                <h2 class="product-title">Omlet šunka</h2>
+                <span class="price">300 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/dorucak/tost1.png" alt='' class="product-img">
+                <h2 class="product-title">Brkin tost #1</h2>
+                <span class="price">360 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="cartimg/dorucak/tost2.png" alt='' class="product-img">
+                <h2 class="product-title">Brkin tost #2</h2>
+                <span class="price">300 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+
+
+        </div>
+    </section>
+
+    
+
+
+
+
+
+
+
+        <section class="shop container">
+            <h2 class="section-title">Brkin meni / Standardna jela</h2>
+            <div class="shop-content">
+                <div class="product-box">
+                    <img src="cartimg/brkinburger.png" alt='' class="product-img">
+                    <h2 class="product-title">Brkin Burger</h2>
+                    <span class="price">450 RSD</span>
+                    <i class='bx bxs-cart' ></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/brkinepljeske.png" alt='' class="product-img">
+                    <h2 class="product-title">Brkina pljeska</h2>
+                    <span class="price">420 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/baconpljeska.png" alt='' class="product-img">
+                    <h2 class="product-title">Bacon pljeska</h2>
+                    <span class="price">415 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/brkinhotdog.png" alt='' class="product-img">
+                    <h2 class="product-title">Brkin hotdog</h2>
+                    <span class="price">385 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/brkinpileciburger.png" alt='' class="product-img">
+                    <h2 class="product-title">Brkin pileci burger</h2>
+                    <span class="price">370 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/fishburger.png" alt='' class="product-img">
+                    <h2 class="product-title">Riblji burger</h2>
+                    <span class="price">375 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/cevapi.png" alt='' class="product-img">
+                    <h2 class="product-title">Ćevapi</h2>
+                    <span class="price">320 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/mjesanomeso.png" alt='' class="product-img">
+                    <h2 class="product-title">Mješano meso</h2>
+                    <span class="price">1200 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/rolcevapi.png" alt='' class="product-img">
+                    <h2 class="product-title">Rol ćevapi</h2>
+                    <span class="price">370 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/dimljenipilecibatak.png" alt='' class="product-img">
+                    <h2 class="product-title">Dimljeni batak</h2>
+                    <span class="price">400 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/pilecakrilca.png" alt='' class="product-img">
+                    <h2 class="product-title">Pileća krilca</h2>
+                    <span class="price">300 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/raznjici.png" alt='' class="product-img">
+                    <h2 class="product-title">Ražnjići</h2>
+                    <span class="price">350 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/svinjskigulas.png" alt='' class="product-img">
+                    <h2 class="product-title">Svinjski gulaš</h2>
+                    <span class="price">310 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/pohovanisir.png" alt='' class="product-img">
+                    <h2 class="product-title">Brkin sir</h2>
+                    <span class="price">295 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+                <div class="product-box">
+                    <img src="cartimg/svinsjarebarca.png" alt='' class="product-img">
+                    <h2 class="product-title">Svinsjka rebarca</h2>
+                    <span class="price">1050 RSD</span>
+                    <i class='bx bxs-cart'></i>
+                </div>
+              
+            </div>
+        </section>
+
+
+        <section class="shop container">
+        <h2 class="section-title">Brkin meni / Specijalne ponude</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="cartimg/specponude/jagnjetina.png" alt='' class="product-img">
+                <h2 class="product-title">Jagnjeće pečenje</h2>
+                <span class="price">2800 RSD</span>
+                <i class='bx bxs-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/specponude/prasetina.png" alt='' class="product-img">
+                <h2 class="product-title">Praseće pečenje</h2>
+                <span class="price">2200 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/specponude/teletinasac.png" alt='' class="product-img">
+                <h2 class="product-title">Teletina ispod sača</h2>
+                <span class="price">2200 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/specponude/beckasnicla.png" alt='' class="product-img">
+                <h2 class="product-title">Bečka šnicla</h2>
+                <span class="price">780 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/specponude/karadjordjeva.png" alt='' class="product-img">
+                <h2 class="product-title">Karađorđeva šnicla</h2>
+                <span class="price">800 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/specponude/corbapecurke.png" alt='' class="product-img">
+                <h2 class="product-title">Čorba sa pečurkama</h2>
+                <span class="price">250 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/specponude/pasuljcorba.png" alt='' class="product-img">
+                <h2 class="product-title">Vojnički pasulj</h2>
+                <span class="price">300 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/specponude/pilecasupa.png" alt='' class="product-img">
+                <h2 class="product-title">Kokošija supa</h2>
+                <span class="price">330 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/specponude/ribljacorba.png" alt='' class="product-img">
+                <h2 class="product-title">Riblja čorba</h2>
+                <span class="price">320 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="cartimg/specponude/telecacorba.png" alt='' class="product-img">
+                <h2 class="product-title">Teleća čorba</h2>
+                <span class="price">330 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    
+    <section class="shop container">
+        <h2 class="section-title">Brkin meni / Karta pićs</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="cartimg/sokovi/cappy.png" alt='' class="product-img">
+                <h2 class="product-title">Cappy narandža</h2>
+                <span class="price">180 RSD</span>
+                <i class='bx bxs-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/cappyapple.png" alt='' class="product-img">
+                <h2 class="product-title">Cappy jabuka</h2>
+                <span class="price">180 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/cocta.png" alt='' class="product-img">
+                <h2 class="product-title">Cocta</h2>
+                <span class="price">160 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/cola.png" alt='' class="product-img">
+                <h2 class="product-title">Coca Cola</h2>
+                <span class="price">160 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/fanta.png" alt='' class="product-img">
+                <h2 class="product-title">Fanta narandža</h2>
+                <span class="price">160 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/shokata.png" alt='' class="product-img">
+                <h2 class="product-title">Fanta Shokata</h2>
+                <span class="price">160 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/gaziranavoda.png" alt='' class="product-img">
+                <h2 class="product-title">MG gazirana voda</h2>
+                <span class="price">100 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/kafa.png" alt='' class="product-img">
+                <h2 class="product-title">Kafa Starbucks</h2>
+                <span class="price">200 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/rosa.png" alt='' class="product-img">
+                <h2 class="product-title">Rosa voda</h2>
+                <span class="price">80 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+
+            <div class="product-box">
+                <img src="cartimg/sokovi/sprite.png" alt='' class="product-img">
+                <h2 class="product-title">Sprite</h2>
+                <span class="price">160 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/svepstangarina.png" alt='' class="product-img">
+                <h2 class="product-title">Šveps tandžarina</h2>
+                <span class="price">170 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="cartimg/sokovi/svepstonic.png" alt='' class="product-img">
+                <h2 class="product-title">Šveps tonic</h2>
+                <span class="price">170 RSD</span>
+                <i class='bx bxs-cart'></i>
+            </div>
+
+
+        </div>
+    </section>
+
+      
+
+
+
+        <script src="js/cart.js"></script>
+
+</body>
+</html>
